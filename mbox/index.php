@@ -412,8 +412,8 @@ class  LiteFrame {
 	*/
 	public  function SetPaths(){ 
 	   
-        $this->logFilePath =  $this->fileSystemPath.$this->logFolder; 
-        $this->applicationPath = 'http://' . $_SERVER['SERVER_NAME'] . dirname($_SERVER['SCRIPT_NAME']);
+        LiteFrame::$logFilePath =  $this->fileSystemPath.$this->logFolder; 
+        $this->applicationPath = 'http://' . $_SERVER['SERVER_NAME'].":".$_SERVER['SERVER_PORT'] . dirname($_SERVER['SCRIPT_NAME']);
         if( substr( $this->applicationPath,strlen($this->applicationPath)-1) != "/" ){
         	$this->applicationPath .= "/";
         }
@@ -1060,7 +1060,7 @@ class  LiteFrame {
 	}/* </ GetAction >  */
 
   
- 	public function IsAjax() {
+ 	public static function IsAjax() {
 		
 		return (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && ($_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest'));
 	}

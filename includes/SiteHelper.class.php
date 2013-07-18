@@ -50,7 +50,7 @@ class SiteHelper {
 		SiteHelper::Debug( LiteFrame::$yAction['SiteData'] );	
 	} /* </ SetObjectsForTemplate >  */	
 	
-	public function setDebugger(){
+	public static function setDebugger(){
 		
 		// the first parameter is if you want debugging on.
 		// the second parameter is if you have firePHP installed on your browser.

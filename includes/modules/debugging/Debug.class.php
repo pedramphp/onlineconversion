@@ -36,7 +36,7 @@ class Debug{
     # we don't permit cloning the singleton (like $x = clone $v)
     private function __clone() { }
 	
-	private function init($isOn, $hasFirePHP = false){
+	private static function init($isOn, $hasFirePHP = false){
 		
 		define("DEBUG", (bool)$isOn);
 		if ($hasFirePHP && FIRE_PHP_FILE){
