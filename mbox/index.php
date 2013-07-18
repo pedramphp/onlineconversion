@@ -436,7 +436,7 @@ class  LiteFrame {
 	}
     
 	/**
-	* Sets all of the this object's instance to the yAction.
+	*  Sets all of the this object's instance to the yAction.
 	*
 	* @return null
 	*/
