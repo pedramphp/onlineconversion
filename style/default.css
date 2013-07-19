@@ -231,6 +231,67 @@ a:hover{
 	color: #fff;
 }
 
+
+.side-nav{
+	float: left;
+	text-align: left;
+	margin: 0 0 20px;
+	width: 100%;
+}
+
+.side-nav h3{
+	width: 100%;
+	float: left;
+	border-bottom: 2px solid #ccc;
+	padding-bottom: 7px;
+	margin-bottom: 20px;
+	font-size: 17px;
+}
+
+.side-nav h3 a{
+	font-size: 10px;
+	float: right;
+	text-align: right;
+}
+
+.side-nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.converts-list li > a{
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	background: url("images/general/side-arrow.png") no-repeat left -12px transparent;
+	padding-left: 10px;
+	margin-bottom: 5px;
+	display: inline-block;
+	clear: both;
+}
+
+.converts-list li > a:hover{
+	text-decoration: none;
+}
+
+.converts-list li > a.active{
+	background-position: left -52px;
+}
+
+.converts-list li nav{
+	margin: 5px 0;
+	float: left;
+	width: 100%;
+}
+
+.converts-list li nav a{
+	margin-bottom: 5px;
+	margin-left: 10px;
+	clear: both;
+	display: inline-block;
+}
+
 /* =================
 	Converter
 	================*/
@@ -238,6 +299,11 @@ a:hover{
 .converter-container{
 	margin: 0 auto;
 	width: 560px;
+}
+
+.converter{
+	clear: both;
+	margin-bottom: 20px;
 }
 
 .metric-countainer{
