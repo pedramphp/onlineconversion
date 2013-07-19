@@ -29,7 +29,7 @@ var CONVERSIONS = {
 	},
 
 	KILOGRAM:{
-		POUND: 0.0283495,
+		POUND: 0.453592,
 		METRIC_TON:	1000,
 		GRAM: 0.001,
 		MILLIGRAM: 1e-6,
@@ -192,11 +192,11 @@ var CONVERSIONS = {
 			if($(e.currentTarget).is($leftMetricInput)){
 				leftMetricVal = parseFloat($leftMetricInput.val()) || 0;
 				rightMetricVal = weightConvertor.convert(leftMetricType, rightMetricType, leftMetricVal);
-				$rightMetricInput.val(rightMetricVal);
+				$rightMetricInput.val(rightMetricVal || "");
 			}else{	
 				rightMetricVal = parseFloat($rightMetricInput.val()) || 0;
 				leftMetricVal = weightConvertor.convert(rightMetricType, leftMetricType, rightMetricVal);
-				$leftMetricInput.val(leftMetricVal);
+				$leftMetricInput.val(leftMetricVal || "");
 			}
 
 			$(".result-box p").text(leftMetricVal + " " + this.getVisualType(leftMetricType) + " is eqaul to " + rightMetricVal + " " + this.getVisualType(rightMetricType)).show();
