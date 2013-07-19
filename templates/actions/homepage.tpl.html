@@ -8,29 +8,6 @@
 		</div>
 		<div class="middle-content">
 			<h2>Weight Converter Pound to Kilogram</h2>
-			<nav class="top-links">
-				<a href="#">Pound to Kilogram</a>
-				<a href="#">Ounce to Kilogram</a>
-				<a href="#">Kilogram to Pound</a>
-				<a href="#">Pound to Kilogram</a>
-				<a href="#">Pound to Gram</a>
-				<a href="#">Gram to Pound</a>
-				<a href="#">Pound to Kilogram</a>
-				<a href="#">Pound to Kilogram</a>
-				<a href="#">Ounce to Kilogram</a>
-				<a href="#">Kilogram to Pound</a>
-				<a href="#">Pound to Kilogram</a>
-				<a href="#">Pound to Gram</a>
-				<a href="#">Gram to Pound</a>
-				<a href="#">Pound to Kilogram</a>
-				<a href="#">Pound to Kilogram</a>
-				<a href="#">Ounce to Kilogram</a>
-				<a href="#">Kilogram to Pound</a>
-				<a href="#">Pound to Kilogram</a>
-				<a href="#">Pound to Gram</a>
-				<a href="#">Gram to Pound</a>
-				<a href="#">Pound to Kilogram</a>
-			</nav>
 			<div class="converter-container">
 				<form method="post" action="">
 					<div class="metric-countainer" id="left-metric"><!-- add active class when clicked -->
@@ -48,7 +25,10 @@
 						</select>
 						<input type="text" class="metric-input" id="metric-input-left" value="1" />
 					</div>
-					<div class="float-left" style="font-size: 25px; padding: 35px 15px 0;">=</div>
+					<div class="middle-signs">
+						<a href="#" class="swap-icon"></a>
+						<span class="equal-icon">=</span>
+					</div>
 					<div class="metric-countainer" id="right-metric"><!-- add active class when clicked -->
 						<select class="unit-selector" id="metric-type-right">
 							<option value="Kilogram">Kilogram</option>
@@ -66,9 +46,9 @@
 					</div>
 				</form>
 				<div class="center"><a href="#" class="btn-convert" id="btn-convert-all"><span>Convert to All</span></a></div>
-				<div class="center ad-style" style="width: 468px; margin: 0 auto; height: 60px;">468 x 60</div>
+				<div class="center ad-style" style="width: 468px; margin: 0 auto 20px; height: 60px;">468 x 60</div>
 				<div class="result-box center" style="display: none;">
-					<p>1 pound is eqaul to 0.453592 Kilogram</p>
+					<p>1 pound<span> is eqaul to </span>0.453592 Kilogram</p>
 					<table colspan="0" cellpadding="0" border="0" width="100%" style="display: none;">
 						<!--
 						<tr><td rowspan="10" class="main-metric">1 Pound =</td></tr>
@@ -110,6 +90,14 @@
 					</section>
 				</article>
 			</div>
+			<h2>Popular Weight Converts</h2>
+			<nav class="top-links">
+				<a href="#">Pound to Kilogram</a>
+				<a href="#">Ounce to Kilogram</a>
+				<a href="#">Kilogram to Ounce</a>
+				<a href="#">Pound to Kilogram</a>
+				<a href="#">Pound to Gram</a>
+			</nav>
 			<div class="center ad-style" style="padding: 30px 0;">
 				Text advertising
 			</div>

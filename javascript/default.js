@@ -199,7 +199,7 @@ var CONVERSIONS = {
 				$leftMetricInput.val(leftMetricVal || "");
 			}
 
-			$(".result-box p").text(leftMetricVal + " " + this.getVisualType(leftMetricType) + " is eqaul to " + rightMetricVal + " " + this.getVisualType(rightMetricType)).show();
+			$(".result-box p").html(leftMetricVal + " " + this.getVisualType(leftMetricType) + "<span> is eqaul to </span>" + rightMetricVal + " " + this.getVisualType(rightMetricType)).show();
 
 		},
 
