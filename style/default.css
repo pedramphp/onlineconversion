@@ -346,6 +346,11 @@ a.btn-convert span{
 	font-size: 15px;
 }
 
+.result-box p {
+	font-size: 16px;
+	text-align: center;
+}
+
 .result-box td span{
 	padding-left: 10px;
 	height: 30px;
