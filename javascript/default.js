@@ -200,7 +200,7 @@ var CONVERSIONS = {
 			$leftMetricType.find("[value="+rightMetricType+"]").attr("selected", true);
 			$rightMetricInput.val(leftMetricVal);
 			$leftMetricInput.val(rightMetricVal);
-
+			this.convertAll();
 
 		},
 
