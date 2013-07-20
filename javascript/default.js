@@ -172,6 +172,7 @@ var CONVERSIONS = {
 				.add($rightMetricInput)
 				.on("keyup", $.proxy(this.convert, this));
 
+
 			$leftMetricType.on("change", function(){
 				$leftMetricInput.trigger("keyup");
 			});
@@ -180,7 +181,20 @@ var CONVERSIONS = {
 				$leftMetricInput.trigger("keyup");
 			});
 
-			$("#btn-convert-all").on("click", $.proxy(this.convertAll, this));
+
+			$leftMetricInput.trigger("keyup");
+
+			$(".swap-icon").on("click", $.proxy(this.swap, this));
+		},
+
+		swap: function(){
+			leftMetricType = $leftMetricType.find("option:selected").val();
+			rightMetricType = $rightMetricType.find("option:selected").val();
+			leftMetricVal = parseFloat($leftMetricInput.val()) || 0;
+
+			$rightMetricType.find("[value="+leftMetricType.toUpperCase()+"]").attr("selected", true);
+			$leftMetricType.find("[value="+rightMetricType.toUpperCase()+"]").attr("selected", true);
+			$rightMetricInput.val(leftMetricVal).trigger("keyup");
 
 		},
 
@@ -199,12 +213,12 @@ var CONVERSIONS = {
 				$leftMetricInput.val(leftMetricVal || "");
 			}
 
-			$(".result-box p").html(leftMetricVal + " " + this.getVisualType(leftMetricType) + "<span> is eqaul to </span>" + rightMetricVal + " " + this.getVisualType(rightMetricType)).show();
+			$(".result-box p").html(leftMetricVal + " " + this.getVisualType(leftMetricType) + "<span> is eqaul to </span>" + rightMetricVal + " " + this.getVisualType(rightMetricType));
+			this.convertAll();
 
 		},
 
-		convertAll: function(e){
-			e.preventDefault();
+		convertAll: function(){
 			var rows = "",
 				result,
 				leftMetricType = $leftMetricType.find("option:selected").val(),
@@ -221,7 +235,7 @@ var CONVERSIONS = {
 				counter++;
 			}
 
-			$(".result-box table").html(rows).show().parent().show();
+			$(".result-box table").html(rows);
 		},
 
 		capitaliseFirstLetter: function(string){
