@@ -187,13 +187,14 @@ var CONVERSIONS = {
 			$(".swap-icon").on("click", $.proxy(this.swap, this));
 		},
 
-		swap: function(){
+		swap: function(e){
+			e.preventDefault();
 			leftMetricType = $leftMetricType.find("option:selected").val();
 			rightMetricType = $rightMetricType.find("option:selected").val();
 			leftMetricVal = parseFloat($leftMetricInput.val()) || 0;
 
 			$rightMetricType.find("[value="+leftMetricType.toUpperCase()+"]").attr("selected", true);
-			$leftMetricType.find("[value="+rightMetricType.toUpperCase()+"]").attr("selected", true);
+			$leftMetricType.find("[value="+rightMetricType.toUpperCase()	+"]").attr("selected", true);
 			$rightMetricInput.val(leftMetricVal).trigger("keyup");
 
 		},
