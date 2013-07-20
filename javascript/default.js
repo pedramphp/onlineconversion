@@ -191,10 +191,11 @@ var CONVERSIONS = {
 			e.preventDefault();
 			leftMetricType = $leftMetricType.find("option:selected").val();
 			rightMetricType = $rightMetricType.find("option:selected").val();
+			
 			leftMetricVal = parseFloat($leftMetricInput.val()) || 0;
 
-			$rightMetricType.find("[value="+leftMetricType.toUpperCase()+"]").attr("selected", true);
-			$leftMetricType.find("[value="+rightMetricType.toUpperCase()	+"]").attr("selected", true);
+			$rightMetricType.find("[value="+leftMetricType+"]").attr("selected", true);
+			$leftMetricType.find("[value="+rightMetricType+"]").attr("selected", true);
 			$rightMetricInput.val(leftMetricVal).trigger("keyup");
 
 		},
