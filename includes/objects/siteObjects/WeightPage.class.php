@@ -71,8 +71,8 @@
 				return;
 			}
 
-			$this->fromMetric = ucfirst(strtolower($converterArr[0]));
-			$this->toMetric = ucfirst(strtolower($converterArr[1]));
+			$this->fromMetric = strtolower($converterArr[0]);
+			$this->toMetric = strtolower($converterArr[1]);
 		}
 		
 	}
