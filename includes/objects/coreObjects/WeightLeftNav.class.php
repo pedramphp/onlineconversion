@@ -22,7 +22,7 @@
 						continue;
 					}
 					$links[] = array(
-						"link" => LiteFrame::BuildActionUrl( "weight-converter", array("converter" => str_replace(" ","-",strtolower($activeMetric)) . "-to-" . str_replace(" ","-",strtolower($metric)))),
+						"link" => LiteFrame::BuildFriendlyActionUrl( "weight-converter", array("converter" => str_replace(" ","-",strtolower($activeMetric)) . "-to-" . str_replace(" ","-",strtolower($metric)))),
 						"title" => $activeMetric . " to " . $metric
 					);
 				}

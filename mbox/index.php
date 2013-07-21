@@ -1056,6 +1056,22 @@ class  LiteFrame {
 		return $url;
 		
 	}
+
+
+	public static function BuildFriendlyActionUrl( $action = '', $querystring = array() ){
+		$url = self::GetApplicationPath();
+		if( !empty( $action) ) {
+			$url .= $action;
+		}
+		
+		if(sizeof($querystring) > 0 ){ 
+			foreach($querystring as $val){
+				$url .= '/'.$val;
+			}
+		}
+		return $url;
+		
+	}
 	
 	public static function getActiveAction(){
 		
