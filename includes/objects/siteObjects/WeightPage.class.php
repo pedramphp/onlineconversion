@@ -44,13 +44,14 @@
 
 		private function getMetrics($activeMetric){
 			$list = array();
-			foreach(self::$metrics as $metricText){
 
+			foreach(self::$metrics as $metricText){
 				$value = str_replace(" ", "_", $metricText);
+				
 				$list[] = array(
 					"value" => $value,
 					"text" => $metricText,
-					"active" => ($value === $activeMetric)
+					"active" => (strtolower($value) === $activeMetric)
 				);
 			}
 			return $list;

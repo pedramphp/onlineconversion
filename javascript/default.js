@@ -281,6 +281,7 @@ var CONVERSIONS = {
 		},
 
 		changeWikiHtml: function(leftMetricType, rightMetricType){
+			
 			$.ajax({
 				type: "POST",
 				data:{
