@@ -1,8 +1,8 @@
 <?php 
 
 	class WeightPage extends SiteObject {
-		private $fromMetric = "Pound";
-		private $toMetric = "Kilogram";
+		private $fromMetric = "pound";
+		private $toMetric = "kilogram";
 
 		public static $metrics = array(
 			"Pound",
