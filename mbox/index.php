@@ -460,12 +460,13 @@ class  LiteFrame {
         switch($this->actionType){
             case "AJAX" : 
               $display = self::$yAction['_LITE_']['VARS']['actionTrigger'];
+          
               break;
               
             case "JSON" : 
             	unset(self::$yAction['_LITE_']);
-              echo json_encode(self::$yAction);
-              return false;
+              	echo json_encode(self::$yAction);
+              	return false;
               break;
               
                

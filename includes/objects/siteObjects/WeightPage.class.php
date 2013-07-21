@@ -71,7 +71,7 @@
 			if(sizeof($converterArr) != 2){
 				return;
 			}
-
+			
 			$this->fromMetric = strtolower($converterArr[0]);
 			$this->toMetric = strtolower($converterArr[1]);
 		}

@@ -285,8 +285,8 @@ var CONVERSIONS = {
 			$.ajax({
 				type: "POST",
 				data:{
-					from: leftMetricType,
-					to: rightMetricType
+					from: leftMetricType.toLowerCase(),
+					to: rightMetricType.toLowerCase()
 				},
 				url: MBOX.getVars().applicationPath + "?action=weight-ajax",
 				success: function(data){
