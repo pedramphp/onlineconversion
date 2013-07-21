@@ -192,12 +192,23 @@ var CONVERSIONS = {
 			});
 
 			$(".side-nav > h3 > a").on("click", function(){
-				$(".converts-list li > a").trigger("click");
 				$(".side-nav > h3 > a").text(function(index, text){
-					return "(Collapse all)" == text ? "(Collapse all)" : "(Expand all)";
+					if("(Collapse all)" == text){
+						text ="(Expand all)";
+						$(".converts-list li > a")
+							.removeClass("active")
+							.next("nav").hide();
+					}else{
+						text ="(Collapse all)";
+						$(".converts-list li > a")
+							.addClass("active")
+							.next("nav").show();
+					}
+
+
+					return text;
 				});
 			});
-
 
 		},
 
