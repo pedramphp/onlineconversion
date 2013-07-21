@@ -3,10 +3,11 @@
 Options +FollowSymlinks
 RewriteEngine on
 
-RewriteBase /
-RewriteCond %{REQUEST_FILENAME} !-l
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php/$1 
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^weight-converter/(.*)$ ?action=weight-converter&converter=$1 [L]
+#RewriteRule ^(.*)\.htm$ $1.php [L]
+#RewriteRule ^=([^/\.]+)/?$ $1 
 
 </IfModule>
