@@ -7,28 +7,17 @@
 		}
 
 		public function getResult(){
-			$metrics = array();
-			$metrics[] = "Pound";
-			$metrics[] = "Metric ton";
-			$metrics[] = "Kilogram";
-			$metrics[] = "Gram";
-			$metrics[] = "Milligram";
-			$metrics[] = "Mcg";
-			$metrics[] = "Long ton";
-			$metrics[] = "Short ton";
-			$metrics[] = "Stone";
-			$metrics[] = "Ounce";
 
 			$nav = array();
 			$links = null;
-			foreach($metrics as $activeMetric){
+			foreach(WeightPage::$metrics as $activeMetric){
 
 				$nav[$activeMetric] = array(
 					"title" => $activeMetric . " Converter",
 					"links" => array()
 				);
 				$links = &$nav[$activeMetric]["links"];
-				foreach($metrics as $metric){
+				foreach(WeightPage::$metrics as $metric){
 					if($metric == $activeMetric){
 						continue;
 					}
