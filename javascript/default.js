@@ -247,6 +247,7 @@ var CONVERSIONS = {
 
 			$(".result-box p").html(leftMetricVal + " " + this.getVisualType(leftMetricType) + "<span> is eqaul to </span>" + rightMetricVal + " " + this.getVisualType(rightMetricType));
 			this.convertAll();
+			this.changeWikiHtml(leftMetricType, rightMetricType);
 
 		},
 
@@ -277,6 +278,21 @@ var CONVERSIONS = {
 
 		getVisualType: function(type){
 			return this.capitaliseFirstLetter(type).replace("_","");
+		},
+
+		changeWikiHtml: function(leftMetricType, rightMetricType){
+			$.ajax({
+				type: "POST",
+				data:{
+					from: leftMetricType,
+					to: rightMetricType
+				},
+				url: MBOX.getVars().applicationPath + "?action=weight-ajax",
+				success: function(data){
+					var $data = $("<div />").html(data);
+					$(".additional-info").html($data);
+				}
+			});
 		}
 
 
