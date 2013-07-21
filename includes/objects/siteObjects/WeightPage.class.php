@@ -47,11 +47,10 @@
 
 			foreach(self::$metrics as $metricText){
 				$value = str_replace(" ", "_", $metricText);
-				
 				$list[] = array(
 					"value" => $value,
 					"text" => $metricText,
-					"active" => (strtolower($value) === $activeMetric)
+					"active" => (strtolower($value) === strtolower($activeMetric))
 				);
 			}
 			return $list;
