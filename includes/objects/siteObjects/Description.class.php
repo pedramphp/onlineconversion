@@ -1,6 +1,6 @@
 <?php 
 	
-	class Title extends SiteObject {
+	class Description extends SiteObject {
 		
 		public function __construct(){
 			parent::__construct();	
@@ -13,7 +13,8 @@
 			$title = "";
 			switch(LiteFrame::getActiveAction()){
 					case "weight-converter":
-						$title = "Weight Conversion | Metric Conversion | Online Conversion";
+						$titleCore = "Weight Conversion is the best conversion tool for kilograms, ounces, pounds, gram, ton. Instant weight conversion.";
+						$title = $titleCore;
 						$request  = LiteFrame::FetchGetVariable();
 
 						if(!isset($request["converter"])){
@@ -27,7 +28,8 @@
 						}
 						$from 	= ucfirst(strtolower($converterArr[0]));
 						$to 	= ucfirst(strtolower($converterArr[1]));
-						$title  = "Convert " . $from ."s to " . $to . "s" . " | " . ucfirst(WeightPage::$shortmetrics[$from]) .  " to " . ucfirst(WeightPage::$shortmetrics[$to]) . " | " ."Weight Conversion"; 					
+						$title  = "Convert " . $from ."s to " . $to . "s" . ", " . ucfirst(WeightPage::$shortmetrics[$from]) .  " to " . ucfirst(WeightPage::$shortmetrics[$to]) ." by using weight conversion tool";
+						$title .= ", ". $titleCore;
 						break;	
 			}
 			$this->results = $title;

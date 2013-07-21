@@ -17,6 +17,19 @@
 			"Ounce"
 		);
 
+		public static $shortmetrics = array(
+			"Pound" => "lbs",
+			"Kilogram" => "kg",
+			"Ounce" => "oz",
+			"Metric_ton" => "Metric ton",
+			"Gram" => "g",
+			"Milligram" => "mg",
+			"Mcg" => "Mcg",
+			"Long_ton" => "Long ton",
+			"Short_ton" => "Short ton",
+			"Stone" => "Stone"
+		);
+
 		public function __construct(){
 			parent::__construct();
 		}
