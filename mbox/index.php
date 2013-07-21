@@ -1040,15 +1040,19 @@ class  LiteFrame {
 	
 	
 	public static function BuildActionUrl( $action = '', $querystring = array() ){
-		
-		if( empty( $action) ) {
-			
-			$action = self::GetActiveAction();
-
+		$url = self::GetApplicationPath();
+		if( !empty( $action) ) {
+			$url .= '?action=' . $action;
 		}
 		
-		$url = self::GetApplicationPath() . '?action=' . $action;
-		if(sizeof($querystring) > 0 ){ $url .= '&'.http_build_query($querystring, '&'); }
+		if(sizeof($querystring) > 0 ){ 
+			if( !empty( $action) ) {
+				$url .= '&';
+			}else{
+				$url .= "?";
+			}
+			$url .= http_build_query($querystring, '&'); 
+		}
 		return $url;
 		
 	}

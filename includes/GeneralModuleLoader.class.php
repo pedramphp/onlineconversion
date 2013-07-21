@@ -12,6 +12,15 @@
  */
 require_once(LiteFrame::GetFileSystemPath()."includes/objects/siteObjects/SiteObjectLoader.class.php");
 
+/**
+ *
+ *	Auto Core Object Loader :
+ *	Auto Loader ( Loads site objects that have not been loaded when they are called )
+ *
+ */
+require_once(LiteFrame::GetFileSystemPath()."includes/objects/coreObjects/CoreObjectLoader.class.php");
+
+
 
 
 

@@ -9,7 +9,7 @@
  	$LiteFrame->SetTemplateEngine(true);
 
   // There is always going to be an action that the framework is going to be pointing to.
-  $LiteFrame->SetPreAction("homepage");  // Set your default action here for the beginning of your project!
+  $LiteFrame->SetPreAction("weight-converter");  // Set your default action here for the beginning of your project!
     
   // $LiteFrame->SetPreActionWithTemplate("homepage","homepage2");
   $LiteFrame->SmartyPath($realpath."includes/modules/smarty/libs/Smarty.class.php");
