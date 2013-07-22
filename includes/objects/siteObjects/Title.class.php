@@ -24,10 +24,17 @@
 						$converterArr = explode("_to_", $converter);
 						if(sizeof($converterArr) != 2){
 							return;
-						}
+						}						
 						$from 	= ucfirst(strtolower($converterArr[0]));
 						$to 	= ucfirst(strtolower($converterArr[1]));
-						$title  = "Convert " . $from ."s to " . $to . "s" . " | " . ucfirst(WeightPage::$shortmetrics[$from]) .  " to " . ucfirst(WeightPage::$shortmetrics[$to]) . " | " ."Weight Conversion"; 					
+
+						$abbFrom = ucfirst(WeightPage::$shortmetrics[$from]);
+						$abbTo = ucfirst(WeightPage::$shortmetrics[$to]);
+
+						$from = str_replace("_", " ",$from);
+						$to = str_replace("_", " ",$to);
+
+						$title  = "Convert " . $from ."s to " . $to . "s" . " | " . $abbFrom .  " to " . $abbTo . " | " ."Weight Conversion"; 					
 						break;	
 			}
 			$this->results = $title;
