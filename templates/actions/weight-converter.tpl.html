@@ -4,6 +4,8 @@
 <!--{assign var = 'metricsToList' value=$SiteData.weightPage.metricsToList}-->
 <!--{assign var = 'fromMetric' value=$SiteData.weightPage.fromMetric}-->
 <!--{assign var = 'toMetric' value=$SiteData.weightPage.toMetric}-->
+<!--{assign var = 'fromMetricTitle' value=$SiteData.weightPage.fromMetricTitle}-->
+<!--{assign var = 'toMetricTitle' value=$SiteData.weightPage.toMetricTitle}-->
 
 
 <div class="main-container clearfix">
@@ -28,7 +30,7 @@
 			</div>
 		</div>
 		<div class="middle-content">
-			<h2>Weight Converter Pound to Kilogram</h2>
+			<h2>Weight Converter <!--{$fromMetricTitle}--> to <!--{$toMetricTitle}--></h2>
 			<div class="converter-container">
 				<section class="converter clearfix">
 					<div class="metric-countainer" id="left-metric"><!-- add active class when clicked -->

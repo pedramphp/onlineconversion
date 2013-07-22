@@ -3,6 +3,9 @@
 	class WeightPage extends SiteObject {
 		private $fromMetric = "pound";
 		private $toMetric = "kilogram";
+		private $fromMetricTitle = "Pound";
+		private $toMetricTitle = "Kilogram";
+
 
 		public static $metrics = array(
 			"Pound",
@@ -43,7 +46,10 @@
 				"metricsFromList"	=> $this->getMetricsFrom(),
 				"metricsToList"		=> $this->getMetricsTo(),
 				"fromMetric"		=> $this->fromMetric,
-				"toMetric"			=> $this->toMetric
+				"toMetric"			=> $this->toMetric,
+				"fromMetricTitle"		=> $this->fromMetricTitle,
+				"toMetricTitle"			=> $this->toMetricTitle
+
 			);
 		}
 
@@ -86,6 +92,14 @@
 			
 			$this->fromMetric = strtolower($converterArr[0]);
 			$this->toMetric = strtolower($converterArr[1]);
+
+			$fromMetricTitle = str_replace("_", " ", $converterArr[0]);
+			$toMetricTitle = str_replace("_", " ", $converterArr[1]);
+
+			$this->fromMetricTitle = ucfirst($fromMetricTitle);
+			$this->toMetricTitle = ucfirst($toMetricTitle);
+
+
 		}
 		
 	}
