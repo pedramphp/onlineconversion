@@ -245,7 +245,7 @@ var CONVERSIONS = {
 				$leftMetricInput.val(leftMetricVal || "");
 			}
 
-			$(".result-box p").html(leftMetricVal + " " + this.getVisualType(leftMetricType) + "<span> is eqaul to </span>" + rightMetricVal + " " + this.getVisualType(rightMetricType));
+			$(".result-box p").html(leftMetricVal + " " + this.getVisualType(leftMetricType) + "<span> is equal to </span>" + rightMetricVal + " " + this.getVisualType(rightMetricType));
 			this.convertAll();
 			this.changeWikiHtml(leftMetricType, rightMetricType);
 			$(".middle-content h2").html("Weight Converter - " + leftMetricType.replace("_"," ") + " to " + rightMetricType.replace("_"," "));
