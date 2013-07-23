@@ -8,8 +8,6 @@
 		
 		
 		public function process(){
-			
-
 			$title = "";
 			switch(LiteFrame::getActiveAction()){
 					case "weight-converter":
@@ -21,8 +19,9 @@
 							break;
 						}
 						$converter = $request["converter"];
-						$converter = str_replace("-", " ", $converter);
+						$converter = str_replace("-", "_", $converter);
 						$converterArr = explode("_to_", $converter);
+					
 						if(sizeof($converterArr) != 2){
 							return;
 						}
@@ -35,10 +34,13 @@
 						$from = str_replace("_", " ",$from);
 						$to = str_replace("_", " ",$to);
 
+						
 						$title  = "Convert " . $from ."s to " . $to . "s" . ", " . $abbFrom .  " to " . $abbTo . " by using weight conversion tool";
 						$title .= ", ". $titleCore;
+						
 						break;	
 			}
+			
 			$this->results = $title;
 			
 		}
