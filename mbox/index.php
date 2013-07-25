@@ -413,7 +413,14 @@ class  LiteFrame {
 	public  function SetPaths(){ 
 	   
         LiteFrame::$logFilePath =  $this->fileSystemPath.$this->logFolder; 
-        $this->applicationPath = 'http://' . $_SERVER['SERVER_NAME'].":".$_SERVER['SERVER_PORT'] . dirname($_SERVER['SCRIPT_NAME']);
+		if($_SERVER['SERVER_NAME'] == "localhost"){
+		
+        	$this->applicationPath = 'http://' . $_SERVER['SERVER_NAME'] .":".$_SERVER['SERVER_PORT'] . dirname($_SERVER['SCRIPT_NAME']);
+        	
+		}else{
+			$this->applicationPath = 'http://' . $_SERVER['SERVER_NAME']. dirname($_SERVER['SCRIPT_NAME']);
+        
+		}
         if( substr( $this->applicationPath,strlen($this->applicationPath)-1) != "/" ){
         	$this->applicationPath .= "/";
         }
