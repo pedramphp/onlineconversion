@@ -103,6 +103,21 @@ a:hover{
 }
 
 
+.social-shares{
+	text-align: center;
+	display: block;
+	background-color: #f1f1f1;
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.social-shares > *{
+	display: inline-block;
+	margin: 0 5px;
+}
+
+
 /* =======================
 	Page Elements
 	=======================*/	
