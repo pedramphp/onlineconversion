@@ -122,6 +122,10 @@ a:hover{
 	margin: 15px 0 0;
 }
 
+.header-container ul{
+	float: left;
+}
+
 .header-container h1 a{
 	text-indent: -99999px;
 	float: left;
@@ -205,6 +209,17 @@ a:hover{
 	width: 560px;
 	padding: 0 10px;
 	float: left;
+}
+
+.middle-content > h3{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.middle-content > .gplus{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
 }
 
 
