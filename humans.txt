@@ -1,0 +1,19 @@
+                            
+/* TEAM */
+
+                            
+Your title: Mexo Inc.
+Site: www.mexoinc.com.
+Twitter: @mexoinc.
+Location: San Jose CA, USA.
+
+                         
+
+                            
+/* SITE */
+
+Last update: 2013/07/28 
+Standards: HTML5, CSS3, JS
+Components: Modernizr, jQuery, etc.
+Software: Software used for the development
+   
