@@ -73,8 +73,8 @@ body{
 	min-width: 990px;
 }
 
-h1{ font-size: 35px;}
-h2{ font-size: 25px;}
+h1{ font-size: 24px;}
+h2{ font-size: 24px;}
 h3{ font-size: 20px;}
 
 a, a:link{
@@ -129,19 +129,20 @@ a:hover{
 	margin-bottom: 20px;
 }
 
-.header-container h1{
+.header-container span{
 	background: url('images/general/logo-online-conversion.png') no-repeat transparent;
 	width: 310px;
 	height: 60px;
 	float: left;
 	margin: 15px 0 0;
+	display: block;
 }
 
 .header-container ul{
 	float: left;
 }
 
-.header-container h1 a{
+.header-container span a{
 	text-indent: -99999px;
 	float: left;
 	width: 310px;
@@ -226,7 +227,7 @@ a:hover{
 	float: left;
 }
 
-.middle-content > h3{
+.middle-content > h1{
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -308,6 +309,11 @@ a:hover{
 	width: 100%;
 }
 
+.converts-list li nav h2{
+	margin: 0;
+	font-weight: normal;
+	font-size: 13px;s\
+}
 .converts-list li nav a{
 	margin-bottom: 5px;
 	margin-left: 10px;

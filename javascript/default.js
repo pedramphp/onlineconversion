@@ -248,7 +248,7 @@ var CONVERSIONS = {
 			$(".result-box p").html(leftMetricVal + " " + this.getVisualType(leftMetricType) + "<span> is equal to </span>" + rightMetricVal + " " + this.getVisualType(rightMetricType));
 			this.convertAll();
 			this.changeWikiHtml(leftMetricType, rightMetricType);
-			$(".middle-content h3").html("Weight Converter - " + leftMetricType.replace("_"," ") + " to " + rightMetricType.replace("_"," "));
+			$(".middle-content h1").html("Weight Converter - " + leftMetricType.replace("_"," ") + " to " + rightMetricType.replace("_"," "));
 
 		},
 
