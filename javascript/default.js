@@ -111,7 +111,9 @@ var converter = function(){
 		},
 
 		convert: function(e){
-
+			if(e.keyCode == 9){
+				return; //ignore tab
+			}
 			leftMetricType = $leftMetricType.find("option:selected").val();
 			rightMetricType = $rightMetricType.find("option:selected").val();
 		

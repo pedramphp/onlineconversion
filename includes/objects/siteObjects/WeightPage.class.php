@@ -13,7 +13,7 @@
 			$this->converterTitle 	= "Weight Converter";
 			$this->header = "Simple easy to use weight conversion tool";
 			
-			$this->shortmetrics = array(
+			self::$shortmetrics = array(
 				"Pound" 		=> "lbs",
 				"Kilogram" 		=> "kg",
 				"Ounce" 		=> "oz",

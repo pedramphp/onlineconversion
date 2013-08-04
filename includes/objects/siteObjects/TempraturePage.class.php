@@ -13,18 +13,12 @@
 			$this->converterTitle 	= "Temprature Converter";
 			$this->header = "Simple easy to use temprature conversion tool";
 			
-			$this->shortmetrics = array(
-				"Pound" 		=> "lbs",
-				"Kilogram" 		=> "kg",
-				"Ounce" 		=> "oz",
-				"Metric_ton" 	=> "Metric ton",
-				"Gram" 			=> "g",
-				"Milligram" 	=> "mg",
-				"Mcg" 			=> "Mcg",
-				"Long_ton" 		=> "Long ton",
-				"Short_ton" 	=> "Short ton",
-				"Stone" 		=> "Stone"
+			self::$shortmetrics = array(
+				"Celsius" 		=> "Celsius",
+				"Fahrenheit" 	=> "Fahrenheit",
+				"Kelvin" 		=> "Kelvin"
 			);
+			
 			self::$CONVERSIONS_TABLE = array(
 				"CELSIUS" 			=> array(
 					"FAHRENHEIT" 	=> -17.2222,

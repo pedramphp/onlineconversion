@@ -26,7 +26,7 @@
 				"fromMetric"		=> $this->fromMetric,
 				"toMetric"			=> $this->toMetric,
 				"fromMetricTitle"	=> $this->fromMetricTitle,
-				"toMetricTitle"		=> $this->toMetricTitle,
+				"toMetricTitle"		=> str_replace("-per-", " per ", $this->toMetricTitle),
 				"conversionTable"	=> self::$CONVERSIONS_TABLE,
 				"converterTitle"	=> $this->converterTitle,
 				"header"			=> $this->header
@@ -76,7 +76,7 @@
 			$this->toMetric		= strtolower($converterArr[1]);
 
 			$fromMetricTitle 	= str_replace("-per-", " per ", str_replace("_", " ", $converterArr[0]));
-			$toMetricTitle 		= str_replace("-per-", " per ", str_replace("_", " ", $converterArr[1]));
+			$toMetricTitle 	= str_replace("-per-", " per ", str_replace("_", " ", $converterArr[1]));
 			
 			$this->fromMetricTitle	= ucfirst($fromMetricTitle);
 			$this->toMetricTitle 	= ucfirst($toMetricTitle);
