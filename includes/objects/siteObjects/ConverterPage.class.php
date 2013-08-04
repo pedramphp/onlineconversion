@@ -26,7 +26,7 @@
 				"fromMetric"		=> $this->fromMetric,
 				"toMetric"			=> $this->toMetric,
 				"fromMetricTitle"	=> $this->fromMetricTitle,
-				"toMetricTitle"		=> str_replace("-per-", " per ", $this->toMetricTitle),
+				"toMetricTitle"		=> $this->toMetricTitle,
 				"conversionTable"	=> self::$CONVERSIONS_TABLE,
 				"converterTitle"	=> $this->converterTitle,
 				"header"			=> $this->header
