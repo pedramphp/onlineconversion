@@ -24,7 +24,7 @@ class Site extends SiteHelper{
 			return;
 		}	
 		try{
-			
+				
 			$this->process( func_get_args() );
 			
 		}catch ( SystemException $e ){			
@@ -50,9 +50,7 @@ class Site extends SiteHelper{
 			$requiredObjects = GlobalUtil::getArguments( $args );
 			
 			if( !empty( $requiredObjects ) ){
-			
 				$this->loadObjects( $requiredObjects );
-			
 			}		
 	
 			if(!LiteFrame::IsAjax()) {  $this->loadObjects( self::$staticObjects ); }

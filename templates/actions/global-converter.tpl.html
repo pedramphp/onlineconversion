@@ -1,0 +1,92 @@
+<!--{*$SiteData|@print_r*}-->
+<!--{assign var = 'activePage' value=$SiteData.activePage}-->
+
+<!--{assign var = 'converterPage' value=$SiteData.$activePage}-->
+<!--{assign var = 'leftNav' value=$converterPage.left_nav}-->
+<!--{assign var = 'metricsFromList' value=$converterPage.metricsFromList}-->
+<!--{assign var = 'metricsToList' value=$converterPage.metricsToList}-->
+<!--{assign var = 'fromMetric' value=$converterPage.fromMetric}-->
+<!--{assign var = 'toMetric' value=$converterPage.toMetric}-->	
+<!--{assign var = 'fromMetricTitle' value=$converterPage.fromMetricTitle}-->
+<!--{assign var = 'toMetricTitle' value=$converterPage.toMetricTitle}-->	
+<!--{assign var = 'converterTitle' value=$converterPage.converterTitle}-->	
+<!--{assign var = 'converterHeader' value=$converterPage.header}-->	
+
+		
+<div class="main-container clearfix">
+    <div class="wrapper">
+		<div class="sidebar-container left-sidebar">
+			<div class="side-nav">
+				
+				<h3>All Converters<a href="#">(Collapse all)</a></h3>
+				<ul class="converts-list">
+					<!--{foreach $leftNav as $nav}-->
+					<li>
+						<a href="#" class="active"><!--{$nav.title}--></a>
+						<nav>
+						<!--{foreach $nav.links as $link}-->
+						<a href="<!--{$link.link}-->" title="<!--{$link.title}-->"><!--{$link.title}--></a>
+						<!--{/foreach}-->
+						</nav>
+					</li>
+					<!--{/foreach}-->
+				</ul>
+			</div>
+		</div>
+		<div class="middle-content">
+			<h2><!--{$converterHeader}--></h2>
+			<h1><!--{$converterTitle}--> - <!--{$fromMetricTitle}--> to <!--{$toMetricTitle}--></h1>
+			<div class="gplus">
+				<div class="g-plusone"></div>
+			</div>
+			<div class="converter-containe clearfix">
+				<section class="converter clearfix">
+					<div class="metric-countainer" id="left-metric"><!-- add active class when clicked -->
+						<select class="unit-selector" id="metric-type-left">
+							<!--{foreach $metricsFromList as $metric}-->
+							<option value="<!--{$metric.value}-->"<!--{if $metric.active}--> selected="selected"<!--{/if}-->><!--{$metric.text}--></option>
+							<!--{/foreach}-->
+						</select>
+						<input type="text" class="metric-input" id="metric-input-left" value="1"  tabindex="1"/>
+					</div>
+					<div class="middle-signs">
+						<a href="#" class="swap-icon ir">Swap</a>
+						<span class="equal-icon">=</span>
+					</div>
+					<div class="metric-countainer" id="right-metric"><!-- add active class when clicked -->
+						<select class="unit-selector" id="metric-type-right">
+							<!--{foreach $metricsToList as $metric}-->
+							<option value="<!--{$metric.value}-->"<!--{if $metric.active}--> selected="selected"<!--{/if}-->><!--{$metric.text}--></option>
+							<!--{/foreach}-->
+						</select>
+						<input type="text" class="metric-input" id="metric-input-right" value="0.453592"  tabindex="2"/>
+					</div>
+				</section>
+				<div class="center social-shares">
+					<div class="g-plus" data-action="share" data-annotation="none" data-height="24"></div>
+					<div class="fb-like" data-href="https://www.facebook.com/onlineconversion.info" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial"></div>
+					<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://twitter.com/OConversion">Tweet</a>
+				</div>
+				<div class="center ad-style" style="width: 468px; margin: 0 auto 20px; height: 0px;">
+				</div>
+				<div class="result-box center">
+					<p>1 pound<span> is equal to </span>0.453592 Kilogram</p>
+					<table cellspacing="0" cellpadding="0" border="0" width="100%">
+					</table>
+				</div>
+			</div>
+			<div class="additional-info">
+				<!--{include file = $includeTemplate|cat:"weightWiki/$fromMetric.tpl.html"}-->
+				<!--{include file = $includeTemplate|cat:"weightWiki/$toMetric.tpl.html"}-->
+			</div>
+		</div>
+		<div class="sidebar-container right-sidebar">
+			<nav class="side-socials-links">
+				<a href="https://www.facebook.com/onlineconversion.info"><img src="<!--{$imagePath}-->general/icon-facebook.png" alt="Facebook" title="Facebook" /></a>
+				<a href="https://twitter.com/OConversion"><img src="<!--{$imagePath}-->general/icon-twitter.png" alt="Twitter" title="Twitter" /></a>
+				<a href="https://plus.google.com/u/0/111589600341789908382/posts"><img src="<!--{$imagePath}-->general/icon-googleplus.png" alt="Google+" title="Google+" /></a>
+			</nav>
+			<div class="ad-style inline-block"><a href="http://mexoinc.com"><img src="<!--{$imagePath}-->general/mexo-ad.png" alt="Mexo Inc Website Design &amp; Development" title="Mexo Inc Website Design &amp; Development" /></a></div>
+		</div>
+	</div>
+</div>

@@ -28,8 +28,8 @@
 						$from 	= ucfirst(strtolower($converterArr[0]));
 						$to 	= ucfirst(strtolower($converterArr[1]));
 
-						$abbFrom = ucfirst(WeightPage::$shortmetrics[$from]);
-						$abbTo = ucfirst(WeightPage::$shortmetrics[$to]);
+						$abbFrom = ucfirst(ConverterPage::$shortmetrics[$from]);
+						$abbTo = ucfirst(ConverterPage::$shortmetrics[$to]);
 
 						$from = str_replace("_", " ",$from);
 						$to = str_replace("_", " ",$to);

@@ -43,11 +43,14 @@ class SiteHelper {
 		
 	}	/*  </ SiteSettings >  */
 	
+	//	self::$siteObjectsData["siteObject"] = $field;
+	
+	
 	public function setObjectsForTemplate(){
 		
-		LiteFrame::$yAction['SiteData'] =  self::$siteObjectsData;
-		
+		LiteFrame::$yAction['SiteData'] = self::$siteObjectsData;
 		SiteHelper::Debug( LiteFrame::$yAction['SiteData'] );	
+		
 	} /* </ SetObjectsForTemplate >  */	
 	
 	public static function setDebugger(){

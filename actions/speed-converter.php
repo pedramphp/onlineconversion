@@ -6,9 +6,8 @@
 		public function __construct(){
 			LiteFrame::IncludeJson();
 			LiteFrame::SetTemplateAction("global-converter");
-			
-			$site = new Site("WeightPage");
-			LiteFrame::$yAction["SiteData"]["activePage"] = "weightPage";
+			$site = new Site("SpeedPage");
+			LiteFrame::$yAction["SiteData"]["activePage"] = "speedPage";
 		}
 		
 	}

@@ -22,7 +22,6 @@ abstract class SiteObject {
 	public function __construct() {
 		try {
 			$this->process();
-			
 		}catch(SiteObjectException $e){
 
 			if($e->getCode() === 1){
@@ -38,7 +37,9 @@ abstract class SiteObject {
 		}
 	}
 	
-	public function getResults() { return $this->results; }
+	public function getResults() {
+		 return $this->results; 	
+	}
 
 	abstract protected function process();
 	
