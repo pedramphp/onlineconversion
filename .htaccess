@@ -8,6 +8,7 @@ RewriteCond %{SCRIPT_FILENAME} !-f
 
 RewriteRule ^weight-converter/(.*)$ ?action=weight-converter&converter=$1 [L]
 RewriteRule ^speed-converter/(.*)$ ?action=speed-converter&converter=$1 [L]
+RewriteRule ^temprature-converter/(.*)$ ?action=temprature-converter&converter=$1 [L]
 #RewriteRule ^(.*)\.htm$ $1.php [L]
 #RewriteRule ^=([^/\.]+)/?$ $1 
 
