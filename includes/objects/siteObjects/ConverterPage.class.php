@@ -97,10 +97,10 @@
 					if($metric == $activeMetric){
 						continue;
 					}
-					$convertFrom = preg_replace("/\s/","-",strtolower($activeMetric));
-					$convertFrom = preg_replace("/\//","-per-",strtolower($activeMetric));
-					$convertTo = preg_replace("/\s|\//","-",strtolower($metric));
-					$convertTo = preg_replace("/\//","-per-",strtolower($metric));
+					$convertFrom = preg_replace("/(\s)+/","-",strtolower($activeMetric));
+					$convertFrom = preg_replace("/\//","-per-",strtolower($convertFrom));
+					$convertTo = preg_replace("/\s/","-",strtolower($metric));
+					$convertTo = preg_replace("/\//","-per-",strtolower($convertTo));
 					
 					$links[] = array(
 						"link" => LiteFrame::BuildFriendlyActionUrl(LiteFrame::getActiveAction(), array("converter" => $convertFrom . "-to-" . $convertTo)),
