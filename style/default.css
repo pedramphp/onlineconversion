@@ -263,16 +263,17 @@ a:hover{
 	width: 100%;
 }
 
-.side-nav h3{
+.side-nav .title{
 	width: 100%;
 	float: left;
 	border-bottom: 2px solid #ccc;
 	padding-bottom: 7px;
 	margin-bottom: 20px;
 	font-size: 17px;
+	font-weight: bold;
 }
 
-.side-nav h3 a{
+.side-nav .title a{
 	font-size: 10px;
 	float: right;
 	text-align: right;
@@ -284,7 +285,11 @@ a:hover{
 	list-style: none;
 }
 
-.converts-list li > a{
+.converts-list li h2{
+	margin: 0;
+}
+
+.converts-list li h2 > a{
 	color: #333;
 	font-size: 14px;
 	font-weight: bold;
@@ -295,11 +300,11 @@ a:hover{
 	clear: both;
 }
 
-.converts-list li > a:hover{
+.converts-list li h2 > a:hover{
 	text-decoration: none;
 }
 
-.converts-list li > a.active{
+.converts-list li h2 > a.active{
 	background-position: left -52px;
 }
 
@@ -312,8 +317,17 @@ a:hover{
 .converts-list li nav h2{
 	margin: 0;
 	font-weight: normal;
-	font-size: 13px;s\
+	font-size: 13px;
 }
+
+.converts-list nav h3{
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-weight: normal
+}
+
 .converts-list li nav a{
 	margin-bottom: 5px;
 	margin-left: 10px;

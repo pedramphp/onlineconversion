@@ -67,21 +67,21 @@ var converter = function(){
 
 			$(".swap-icon").on("click", $.proxy(this.swap, this));
 			
-			$(".converts-list li > a").on("click", function(){
+			$(".converts-list li h2").on("click", function(){
 				$(this).toggleClass("active");
 				$(this).next("nav").toggle();
 			});
 
-			$(".side-nav > h3 > a").on("click", function(){
-				$(".side-nav > h3 > a").text(function(index, text){
+			$(".side-nav .title a").on("click", function(){
+				$(".side-nav .title a").text(function(index, text){
 					if("(Collapse all)" == text){
 						text ="(Expand all)";
-						$(".converts-list li > a")
+						$(".converts-list li h2")
 							.removeClass("active")
 							.next("nav").hide();
 					}else{
 						text ="(Collapse all)";
-						$(".converts-list li > a")
+						$(".converts-list li h2")
 							.addClass("active")
 							.next("nav").show();
 					}

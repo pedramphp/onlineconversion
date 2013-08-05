@@ -18,14 +18,14 @@
 		<div class="sidebar-container left-sidebar">
 			<div class="side-nav">
 				
-				<h3>All Converters<a href="#">(Collapse all)</a></h3>
+				<div class="title">All Converters<a href="#">(Collapse all)</a></div>
 				<ul class="converts-list">
 					<!--{foreach $leftNav as $nav}-->
 					<li>
-						<a href="#" class="active"><!--{$nav.title}--></a>
+						<h2><a href="#" class="active"><!--{$nav.title}--></a></h2>
 						<nav>
 						<!--{foreach $nav.links as $link}-->
-						<a href="<!--{$link.link}-->" title="<!--{$link.title}-->"><!--{$link.title}--></a>
+						<h3><a href="<!--{$link.link}-->" title="<!--{$link.title}-->"><!--{$link.title}--></a></h3>
 						<!--{/foreach}-->
 						</nav>
 					</li>
