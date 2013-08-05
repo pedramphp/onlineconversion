@@ -68,7 +68,7 @@ var converter = function(){
 			$(".swap-icon").on("click", $.proxy(this.swap, this));
 			
 			$(".converts-list li h2").on("click", function(){
-				$(this).toggleClass("active");
+				$(this).find("a").toggleClass("active");
 				$(this).next("nav").toggle();
 			});
 
@@ -76,14 +76,14 @@ var converter = function(){
 				$(".side-nav .title a").text(function(index, text){
 					if("(Collapse all)" == text){
 						text ="(Expand all)";
-						$(".converts-list li h2")
+						$(".converts-list li h2").find("a")
 							.removeClass("active")
-							.next("nav").hide();
+							.end().next("nav").hide();
 					}else{
 						text ="(Collapse all)";
-						$(".converts-list li h2")
+						$(".converts-list li h2").find("a")
 							.addClass("active")
-							.next("nav").show();
+							.end().next("nav").show();
 					}
 
 
