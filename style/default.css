@@ -167,14 +167,36 @@ a:hover{
 	margin-bottom: 20px;
 }
 
-.main-nav > ul{
+.main-nav nav a{
+	color: #fff;
+	font-size: 13px;
+	padding: 0 15px;
+	float: left;
+	line-height: 55px;
+	text-transform: uppercase;
+	
+	-webkit-transition: all 0.1s linear 0s;
+	-moz-transition: all 0.1s linear 0s;
+	-ms-transition: all 0.1s linear 0s;
+	-o-transition: all 0.1s linear 0s;
+	transition: all 0.1s linear 0s;
+}
+
+.main-nav nav a:hover,
+.main-nav nav a.hovered{
+	background-color: #0066cc;
+	text-decoration: none;
+	color: #fff;
+}
+
+/*.main-nav > ul{
 	list-style: none;
 	padding: 0;
 }
 
 .main-nav > ul > li{
-	margin-right: 10px;
 	float: left;
+	margin-right: 10px;
 	line-height: 55px;
 	position: relative;
 }
@@ -235,6 +257,7 @@ a:hover{
 	background-color: #000;
 	text-decoration: none;
 }
+*/
 
 .content-top-ad{
 	width: 970px;

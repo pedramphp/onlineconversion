@@ -1,6 +1,12 @@
 $(document).ready(function(){
 
 	converter.init();
+	
+	$(".main-nav li:has(ul)").on("hover", function(){
+		$(this).children("a").toggleClass("hovered");
+		$(this).find("ul").toggle();
+	})
+	
 
 });
 
