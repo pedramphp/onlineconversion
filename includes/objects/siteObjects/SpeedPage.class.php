@@ -32,7 +32,7 @@
 					"FEET-PER-SEC" 		=> 0.681818,
 					"METERS-PER-SEC" 	=> 2.23694,
 					"KM-PER-HOUR" 		=> 0.621371,
-					"KNOT" 			=> 1.15078
+					"KNOT" 				=> 1.15078
 				),
 				
 				"FEET-PER-SEC" 			=> array(

@@ -1,584 +1,963 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
-<!-- www.mexoinc.com sitemap generator -->
-
-	<url>
-	   <loc>http://onlineconversion.info/</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>1.0000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/pound-to-metric-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/pound-to-kilogram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/pound-to-gram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/pound-to-milligram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/pound-to-mcg</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/pound-to-long-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/pound-to-short-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/pound-to-stone</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/pound-to-ounce</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/metric-ton-to-pound</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/metric-ton-to-kilogram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/metric-ton-to-gram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/metric-ton-to-milligram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/metric-ton-to-mcg</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/metric-ton-to-long-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/metric-ton-to-short-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/metric-ton-to-stone</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/metric-ton-to-ounce</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/kilogram-to-pound</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/kilogram-to-metric-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/kilogram-to-gram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/kilogram-to-milligram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/kilogram-to-mcg</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/kilogram-to-long-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/kilogram-to-short-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/kilogram-to-stone</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/kilogram-to-ounce</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/gram-to-pound</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/gram-to-metric-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/gram-to-kilogram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/gram-to-milligram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/gram-to-mcg</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/gram-to-long-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/gram-to-short-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/gram-to-stone</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/gram-to-ounce</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/milligram-to-pound</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/milligram-to-metric-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/milligram-to-kilogram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/milligram-to-gram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/milligram-to-mcg</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/milligram-to-long-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/milligram-to-short-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/milligram-to-stone</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/milligram-to-ounce</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/mcg-to-pound</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/mcg-to-metric-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/mcg-to-kilogram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/mcg-to-gram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/mcg-to-milligram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/mcg-to-long-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/mcg-to-short-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/mcg-to-stone</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/mcg-to-ounce</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/long-ton-to-pound</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/long-ton-to-metric-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/long-ton-to-kilogram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/long-ton-to-gram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/long-ton-to-milligram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/long-ton-to-mcg</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/long-ton-to-short-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/long-ton-to-stone</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/long-ton-to-ounce</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/short-ton-to-pound</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/short-ton-to-metric-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/short-ton-to-kilogram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/short-ton-to-gram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/short-ton-to-milligram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/short-ton-to-mcg</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/short-ton-to-long-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/short-ton-to-stone</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/short-ton-to-ounce</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/stone-to-pound</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/stone-to-metric-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/stone-to-kilogram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/stone-to-gram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/stone-to-milligram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/stone-to-mcg</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/stone-to-long-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/stone-to-short-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/stone-to-ounce</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/ounce-to-pound</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/ounce-to-metric-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/ounce-to-kilogram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/ounce-to-gram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/ounce-to-milligram</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/ounce-to-mcg</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/ounce-to-long-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/ounce-to-short-ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/ounce-to-stone</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.8000</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.6400</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/en.wikipedia.org/wiki/Long_ton</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.6400</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/en.wikipedia.org/wiki/Stone_(unit)</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.6400</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/en.wikipedia.org/wiki/Ounce</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.6400</priority>
-	</url>
-	<url>
-	   <loc>http://onlineconversion.info/weight-converter/en.wikipedia.org/wiki/</loc>
-	   <lastmod>2013-07-25T20:25:23+00:00</lastmod>
-	   <changefreq>daily</changefreq>
-	   <priority>0.5120</priority>
-	</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>http://onlineconversion.info/</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/pound-to-kilogram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/miles-per-hour-to-feet-per-sec</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/temprature-converter/kelvin-to-fahrenheit</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/kilometer-to-centimeter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/pound-to-metric-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/pound-to-gram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/pound-to-milligram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/pound-to-mcg</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/pound-to-long-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/pound-to-short-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/pound-to-stone</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/pound-to-ounce</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/metric-ton-to-pound</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/metric-ton-to-kilogram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/metric-ton-to-gram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/metric-ton-to-milligram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/metric-ton-to-mcg</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/metric-ton-to-long-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/metric-ton-to-short-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/metric-ton-to-stone</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/metric-ton-to-ounce</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/kilogram-to-pound</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/kilogram-to-metric-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/kilogram-to-gram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/kilogram-to-milligram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/kilogram-to-mcg</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/kilogram-to-long-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/kilogram-to-short-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/kilogram-to-stone</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/kilogram-to-ounce</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/gram-to-pound</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/gram-to-metric-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/gram-to-kilogram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/gram-to-milligram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/gram-to-mcg</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/gram-to-long-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/gram-to-short-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/gram-to-stone</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/gram-to-ounce</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/milligram-to-pound</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/milligram-to-metric-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/milligram-to-kilogram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/milligram-to-gram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/milligram-to-mcg</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/milligram-to-long-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/milligram-to-short-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/milligram-to-stone</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/milligram-to-ounce</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/mcg-to-pound</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/mcg-to-metric-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/mcg-to-kilogram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/mcg-to-gram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/mcg-to-milligram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/mcg-to-long-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/mcg-to-short-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/mcg-to-stone</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/mcg-to-ounce</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/long-ton-to-pound</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/long-ton-to-metric-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/long-ton-to-kilogram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/long-ton-to-gram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/long-ton-to-milligram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/long-ton-to-mcg</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/long-ton-to-short-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/long-ton-to-stone</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/long-ton-to-ounce</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/short-ton-to-pound</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/short-ton-to-metric-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/short-ton-to-kilogram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/short-ton-to-gram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/short-ton-to-milligram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/short-ton-to-mcg</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/short-ton-to-long-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/short-ton-to-stone</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/short-ton-to-ounce</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/stone-to-pound</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/stone-to-metric-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/stone-to-kilogram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/stone-to-gram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/stone-to-milligram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/stone-to-mcg</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/stone-to-long-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/stone-to-short-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/stone-to-ounce</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/ounce-to-pound</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/ounce-to-metric-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/ounce-to-kilogram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/ounce-to-gram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/ounce-to-milligram</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/ounce-to-mcg</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/ounce-to-long-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/ounce-to-short-ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/ounce-to-stone</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/miles-per-hour-to-meters-per-sec</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/miles-per-hour-to-km-per-hour</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/miles-per-hour-to-knot</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/feet-per-sec-to-miles-per-hour</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/feet-per-sec-to-meters-per-sec</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/feet-per-sec-to-km-per-hour</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/feet-per-sec-to-knot</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/meters-per-sec-to-miles-per-hour</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/meters-per-sec-to-feet-per-sec</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/meters-per-sec-to-km-per-hour</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/meters-per-sec-to-knot</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/km-per-hour-to-miles-per-hour</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/km-per-hour-to-feet-per-sec</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/km-per-hour-to-meters-per-sec</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/km-per-hour-to-knot</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/knot-to-miles-per-hour</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/knot-to-feet-per-sec</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/knot-to-meters-per-sec</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/speed-converter/knot-to-km-per-hour</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/temprature-converter/celsius-to-fahrenheit</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/temprature-converter/celsius-to-kelvin</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/temprature-converter/fahrenheit-to-celsius</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/temprature-converter/fahrenheit-to-kelvin</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/temprature-converter/kelvin-to-celsius</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/meter-to-kilometer</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/meter-to-centimeter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/meter-to-millimeter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/meter-to-mile</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/meter-to-yard</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/meter-to-foot</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/meter-to-inch</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/meter-to-nautical-mile</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/kilometer-to-meter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/kilometer-to-millimeter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/kilometer-to-mile</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/kilometer-to-yard</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/kilometer-to-foot</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/kilometer-to-inch</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/kilometer-to-nautical-mile</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/centimeter-to-meter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/centimeter-to-kilometer</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/centimeter-to-millimeter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/centimeter-to-mile</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/centimeter-to-yard</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/centimeter-to-foot</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/centimeter-to-inch</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/centimeter-to-nautical-mile</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/millimeter-to-meter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/millimeter-to-kilometer</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/millimeter-to-centimeter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/millimeter-to-mile</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/millimeter-to-yard</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/millimeter-to-foot</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/millimeter-to-inch</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/millimeter-to-nautical-mile</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/mile-to-meter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/mile-to-kilometer</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/mile-to-centimeter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/mile-to-millimeter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/mile-to-yard</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/mile-to-foot</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/mile-to-inch</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/mile-to-nautical-mile</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/yard-to-meter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/yard-to-kilometer</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/yard-to-centimeter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/yard-to-millimeter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/yard-to-mile</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/yard-to-foot</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/yard-to-inch</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/yard-to-nautical-mile</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/foot-to-meter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/foot-to-kilometer</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/foot-to-centimeter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/foot-to-millimeter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/foot-to-mile</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/foot-to-yard</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/foot-to-inch</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/foot-to-nautical-mile</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/inch-to-meter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/inch-to-kilometer</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/inch-to-centimeter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/inch-to-millimeter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/inch-to-mile</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/inch-to-yard</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/inch-to-foot</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/inch-to-nautical-mile</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/nautical-mile-to-meter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/nautical-mile-to-kilometer</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/nautical-mile-to-centimeter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/nautical-mile-to-millimeter</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/nautical-mile-to-mile</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/nautical-mile-to-yard</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/nautical-mile-to-foot</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/length-converter/nautical-mile-to-inch</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/en.wikipedia.org/wiki/Long_ton</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/en.wikipedia.org/wiki/Stone_(unit)</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>http://onlineconversion.info/weight-converter/en.wikipedia.org/wiki/Ounce</loc>
+	<priority>0.5</priority>
+	<changefreq>daily</changefreq>
+</url>
 </urlset>
