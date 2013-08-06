@@ -25,7 +25,7 @@
 					"Yard" 			=> "Yard",
 					"Foot" 			=> "Foot",
 					"Inch" 			=> "Inch", 
-					"Nautical_mile" => "NNautical mile"
+					"Nautical_mile" => "Nautical mile"
 			);
 			
 			self::$CONVERSIONS_TABLE = array(
