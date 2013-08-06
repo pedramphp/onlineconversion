@@ -9,45 +9,12 @@
 		
 		public function process(){
 			
-			$title = "";
-			switch(LiteFrame::getActiveAction()){
-					case "weight-converter":
-						$title = "Weight Conversion | Metric Conversion | Online Conversion";
-						$request  = LiteFrame::FetchGetVariable();
-						$mainKeyword = "Weight Conversion";
-						if(!isset($request["converter"])){
-							break;
-						}
-						$title = $this->buildTitle($mainKeyword);
-						break;	
-						
-					case "temprature-converter":
-					
-						$title = "Temperature Conversion | Temperature Converter | Celsius Conversion";
-						$request  = LiteFrame::FetchGetVariable();
-						$mainKeyword = "Temperature Conversion";
-						if(!isset($request["converter"]) || empty($request["converter"])){
-							break;
-						}
-						
-						$title = $this->buildTitle($mainKeyword);
-						break;							
-					
-					case "speed-converter":
-					
-						$title = "Speed Conversion | Speed Converter | Speed Conversion Calculator";
-						$request  = LiteFrame::FetchGetVariable();
-						$mainKeyword = "Speed Conversion";
-						if(!isset($request["converter"]) || empty($request["converter"])){
-							break;
-						}
-						
-						$title = $this->buildTitle($mainKeyword);
-						break;								
+			$title = ConverterPage::$pageTitle;
+			$request  = LiteFrame::FetchGetVariable();
+			$mainKeyword = ConverterPage::$pageTitleKeyword;
+			if(isset($request["converter"]) && !empty($request["converter"])){
+				$title = $this->buildTitle($mainKeyword);
 			}
-
-			
-					
 			$this->results = $title;
 			
 		}

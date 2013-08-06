@@ -12,6 +12,9 @@
 			$this->toMetricTitle 	= "Kilogram";
 			$this->converterTitle 	= "Weight Converter";
 			$this->header = "Simple easy to use weight conversion tool";
+			self::$pageTitle = "Weight Conversion | Metric Conversion | Online Conversion";
+			self::$pageTitleKeyword = "Weight Conversion";
+			self::$pageDesc = "Weight Conversion is the best conversion tool for kilograms, ounces, pounds, gram, ton. Instant weight conversion.";
 			
 			self::$shortmetrics = array(
 				"Pound" 		=> "lbs",

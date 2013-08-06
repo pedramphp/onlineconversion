@@ -10,6 +10,10 @@
 		protected static $CONVERSIONS_TABLE;
 		protected $header;
 		public static $shortmetrics;
+		public static $pageTitle;
+		public static $pageTitleKeyword;
+		public static $pageDesc;
+		
 		public function __construct(){
 			parent::__construct();
 		}

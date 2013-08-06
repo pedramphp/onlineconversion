@@ -13,6 +13,9 @@
 			$this->toMetricTitle 	= "Feet per sec";
 			$this->converterTitle 	= "Speed Converter";
 			$this->header = "Simple easy to use speed conversion tool";
+			self::$pageTitle = "Speed Conversion | Speed Converter | Speed Conversion Calculator";
+			self::$pageTitleKeyword =  "Speed Conversion";
+			self::$pageDesc = "Speed Conversion is the best conversion tool for meter per hour, feet per sec, miles per hour, meters per sec, knot, km per hour. Instant speed conversion.";
 			
 			self::$shortmetrics = array(
 				"Miles_per_hour"	=> "Miles Per Hour",

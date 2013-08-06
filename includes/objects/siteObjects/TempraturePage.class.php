@@ -12,6 +12,10 @@
 			$this->toMetricTitle 	= "Fahrenheit";
 			$this->converterTitle 	= "Temprature Converter";
 			$this->header = "Simple easy to use temprature conversion tool";
+			self::$pageTitle = "Temperature Conversion | Temperature Converter | Celsius Conversion";
+			self::$pageTitleKeyword =  "Temperature Conversion";
+			self::$pageDesc = "Temprature Conversion is the best conversion tool for Fahrenheits, Celsius, Kelvin. Instant temprature conversion.";
+			
 			
 			self::$shortmetrics = array(
 				"Celsius" 		=> "Celsius",

@@ -8,47 +8,13 @@
 		
 		
 		public function process(){
-			$title = "";
-			switch(LiteFrame::getActiveAction()){
-					case "weight-converter":
-						$titleCore = "Weight Conversion is the best conversion tool for kilograms, ounces, pounds, gram, ton. Instant weight conversion.";
-						$title = $titleCore;
-						$request  = LiteFrame::FetchGetVariable();
-						$mainKeyword = "Weight Conversion";
-						
-						if(!isset($request["converter"]) || empty($request["converter"])){
-							break;
-						}
-						
-						$title = $this->buildDesc($mainKeyword, $titleCore);
-						
-						break;	
-						
-					case "temprature-converter":
-					
-						$titleCore = "Temprature Conversion is the best conversion tool for Fahrenheits, Celsius, Kelvin. Instant temprature conversion.";
-						$title = $titleCore;
-						$request  = LiteFrame::FetchGetVariable();
-						$mainKeyword = "Temperature Conversion";
-						if(!isset($request["converter"]) || empty($request["converter"])){
-							break;
-						}
-						
-						$title = $this->buildDesc($mainKeyword, $titleCore);
-						break;							
-					
-					case "speed-converter":
-					
-						$titleCore = "Speed Conversion is the best conversion tool for meter per hour, feet per sec, miles per hour, meters per sec, knot, km per hour. Instant speed conversion.";
-						$title = $titleCore;
-						$request  = LiteFrame::FetchGetVariable();
-						$mainKeyword = "Speed Conversion";
-						if(!isset($request["converter"]) || empty($request["converter"])){
-							break;
-						}
-						
-						$title = $this->buildDesc($mainKeyword, $titleCore);
-						break;			
+			
+			$titleCore = ConverterPage::$pageDesc;
+			$title = $titleCore;
+			$mainKeyword = ConverterPage::$pageTitleKeyword;
+			
+			if(isset($request["converter"]) && !empty($request["converter"])){
+				$title = $this->buildDesc($mainKeyword, $titleCore);
 			}
 			
 			$this->results = $title;
