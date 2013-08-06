@@ -17,7 +17,8 @@ var converter = function(){
 		conversionData		= siteData[actionName+"Page"],
 		CONVERSIONS 		= conversionData.conversionTable,
 		converterTitle		= conversionData.converterTitle;
-		
+	
+	
 	var onlineConverter = {
 		convert: function(fromType, toType, value){
 
@@ -33,7 +34,7 @@ var converter = function(){
 				return value;
 			}
 			
-
+			console.log( toType,fromType,  CONVERSIONS, CONVERSIONS[toType]);
 			result = CONVERSIONS[toType][fromType] * value;
 			return result;
 		}

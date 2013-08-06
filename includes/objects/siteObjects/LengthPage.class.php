@@ -115,6 +115,17 @@
 					"FOOT" 			=> 0.000164579,
 					"INCH" 			=> 1.3715e-5, 
 					"KILOMETER" 	=> 0.539957
+				),					
+					
+				"INCH" 	=> array(
+					"METER" 		=> 0.000539957,
+					"CENTIMETER" 	=> 5.3996e-6,
+					"MILLIMETER" 	=> 5.3996e-7,
+					"MILE" 			=> 0.868976,
+					"YARD" 			=> 0.000493737,
+					"FOOT" 			=> 0.000164579,
+					"NAUTICAL_MILE" => 1.3715e-5, 
+					"KILOMETER" 	=> 0.539957
 				)
 			);
 			
