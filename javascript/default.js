@@ -39,8 +39,41 @@ var converter = function(){
 			if(toType == fromType){
 				return value;
 			}
+			if(actionName == "temperature"){
+				result = this.convertTemperature(toType, fromType, value);
+			}else{
+				result = CONVERSIONS[toType][fromType] * value;
+			}
+			return result;
+		},
+		
+		convertTemperature: function(toType, fromType, value){
+			var result;
+			if(toType == "FAHRENHEIT" && fromType == "KELVIN"){
+				
+				result = 9/5 * (value - 273) + 32;
 			
-			result = CONVERSIONS[toType][fromType] * value;
+			}else if(toType == "FAHRENHEIT" && fromType == "CELSIUS"){
+				
+				result = 9/5 * (value) + 32;
+			
+			}else if(toType == "KELVIN" && fromType == "FAHRENHEIT"){
+				
+				result = 5/9 * ( value - 32) + 273;
+			
+			}else if(toType == "KELVIN" && fromType == "CELSIUS"){
+				
+				result = value + 273;
+			
+			}else if(toType == "CELSIUS" && fromType == "KELVIN"){
+			
+				result = value - 273;
+			
+			}else if(toType == "CELSIUS" && fromType == "FAHRENHEIT"){
+			
+				result = (value - 32) * 5/9;
+			
+			}
 			return result;
 		}
 	};
