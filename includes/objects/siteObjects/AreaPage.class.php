@@ -7,9 +7,9 @@
 		public function __construct(){
 			
 			$this->fromMetric 		= "square km";
-			$this->toMetric 		= "hectare";
+			$this->toMetric 		= "square foot";
 			$this->fromMetricTitle	= "Square km";
-			$this->toMetricTitle 	= "Hectare";
+			$this->toMetricTitle 	= "Square foot";
 			$this->converterTitle 	= "Area Converter";
 			$this->header = "Simple easy to use Area conversion tool";
 			self::$pageTitle = "Area Conversion | Metric Conversion | Online Conversion";
