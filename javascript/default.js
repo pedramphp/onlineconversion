@@ -40,7 +40,6 @@ var converter = function(){
 				return value;
 			}
 			
-			console.log( toType,fromType,  CONVERSIONS, CONVERSIONS[toType]);
 			result = CONVERSIONS[toType][fromType] * value;
 			return result;
 		}
@@ -157,6 +156,7 @@ var converter = function(){
 			for(var toType in CONVERSIONS[leftMetricType.toUpperCase().replace("/","-PER-")]){
 				trClass = counter % 2 == 0 ? " class='colored'" : "";
 				result = onlineConverter.convert(leftMetricType, toType, leftMetricVal);
+				console.log(this.getVisualType(toType) );
 				rows += "<tr"+trClass+"><td><span>" + result + "</span><span>" + this.getVisualType(toType) + "</span></td></tr>";
 				counter++;
 			}
@@ -170,7 +170,7 @@ var converter = function(){
 		},
 
 		getVisualType: function(type){
-			return this.capitaliseFirstLetter(type).replace("_","");
+			return this.capitaliseFirstLetter(type).replace(/_/," ").replace(/-per-/,"/");
 		},
 
 		changeWikiHtml: function(leftMetricType, rightMetricType){
