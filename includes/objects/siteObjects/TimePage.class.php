@@ -6,8 +6,8 @@
 		
 		public function __construct(){
 			
-			$this->fromMetric 		= "Nanosecond";
-			$this->toMetric 		= "Microsecond";
+			$this->fromMetric 		= "nanosecond";
+			$this->toMetric 		= "microsecond";
 			$this->fromMetricTitle	= "Nanosecond";
 			$this->toMetricTitle 	= "Microsecond";
 			$this->converterTitle 	= "Time Converter";

@@ -6,8 +6,8 @@
 		
 		public function __construct(){
 			
-			$this->fromMetric 		= "Square km";
-			$this->toMetric 		= "Hectare";
+			$this->fromMetric 		= "square km";
+			$this->toMetric 		= "hectare";
 			$this->fromMetricTitle	= "Square km";
 			$this->toMetricTitle 	= "Hectare";
 			$this->converterTitle 	= "Area Converter";
