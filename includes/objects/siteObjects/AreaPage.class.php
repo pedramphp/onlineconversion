@@ -17,14 +17,14 @@
 			self::$pageDesc = "Area Conversion is the best conversion tool for Square km, Hectare, Square meter, Square mile, Acre, Square yard, Square foot, Square inch. Instant area conversion.";
 			
 			self::$shortmetrics = array(
-					"Square_km"			=> "Square km",
-					"Hectare"				=> "Hectare",
+					"Square_km"			=> "sq km",
+					"Hectare"				=> "ha",
 					"Square_meter"		=> "Square meter",
 					"Square_mile"		=> "Square mile",
-					"Acre"					=> "Acre",
-					"Square_yard"		=> "Square yard",
-					"Square_foot"		=> "Square foot",
-					"Square_inch"		=> "Square inch"
+					"Acre"					=> "ac",
+					"Square_yard"		=> "sq yard",
+					"Square_foot"		=> "sq ft",
+					"Square_inch"		=> "sq inch"
 			);
 			
 			self::$CONVERSIONS_TABLE = array(
