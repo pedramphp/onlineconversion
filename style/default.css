@@ -287,6 +287,14 @@ a:hover{
 .middle-content > h1{
 	display: inline-block;
 	vertical-align: middle;
+	margin-bottom: 30px;
+}
+
+.middle-content > h2{
+	font-size: 20px;
+	margin-bottom: 0px;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .middle-content > .gplus{
