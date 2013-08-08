@@ -18,7 +18,7 @@
 			
 			self::$shortmetrics = array(
 				"Nanosecond"	=> "ns",
-				"Microsecond"	=> "μs",
+				"Microsecond"	=> "Microsecond",
 				"Millisecond"		=> "ms",
 				"Second"			=> "sec",
 				"Minute"			=> "min",
