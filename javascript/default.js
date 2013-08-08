@@ -156,7 +156,6 @@ var converter = function(){
 			for(var toType in CONVERSIONS[leftMetricType.toUpperCase().replace("/","-PER-")]){
 				trClass = counter % 2 == 0 ? " class='colored'" : "";
 				result = onlineConverter.convert(leftMetricType, toType, leftMetricVal);
-				console.log(this.getVisualType(toType) );
 				rows += "<tr"+trClass+"><td><span>" + result + "</span><span>" + this.getVisualType(toType) + "</span></td></tr>";
 				counter++;
 			}

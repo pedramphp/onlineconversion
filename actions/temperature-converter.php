@@ -7,8 +7,8 @@
 			LiteFrame::IncludeJson();
 			LiteFrame::SetTemplateAction("global-converter");
 			
-			$site = new Site("TempraturePage");
-			LiteFrame::$yAction["SiteData"]["activePage"] = "tempraturePage";
+			$site = new Site("TemperaturePage");
+			LiteFrame::$yAction["SiteData"]["activePage"] = "temperaturePage";
 		}
 		
 	}

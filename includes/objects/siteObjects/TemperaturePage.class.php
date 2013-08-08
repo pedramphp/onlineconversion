@@ -2,7 +2,7 @@
 	
 	require_once("ConverterPage.class.php");
 	
-	class TempraturePage extends ConverterPage {
+	class TemperaturePage extends ConverterPage {
 		
 		public function __construct(){
 			
