@@ -163,7 +163,6 @@ a:hover{
 	float: left;
 	width: 100%;
 	background-color: #000;
-	height: 55px;
 	margin-bottom: 20px;
 }
 
@@ -174,7 +173,6 @@ a:hover{
 	float: left;
 	line-height: 55px;
 	text-transform: uppercase;
-	
 	-webkit-transition: all 0.1s linear 0s;
 	-moz-transition: all 0.1s linear 0s;
 	-ms-transition: all 0.1s linear 0s;
