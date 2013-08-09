@@ -35,46 +35,46 @@
 				"BIT" 			=> array(
 					"BYTE"				=> 8,
 					"KILOBIT"			=> 1024,
-					"KILObyte"		=> 8192,
+					"KILOBYTE"		=> 8192,
 					"MEGABIT"		=> 1.049e+6,
-					"MEGAbyte"		=> 8.389e+6,
+					"MEGABYTE"		=> 8.389e+6,
 					"GIGABIT"			=> 1.074e+9,
-					"GIGAbyte"		=> 8.59e+9,
+					"GIGABYTE"		=> 8.59e+9,
 					"TERABIT"			=> 1.1e+12,
-					"TERAbyte"		=> 8.796e+12,
+					"TERABYTE"		=> 8.796e+12,
 					"PETABIT"			=> 1.126e+15,
-					"PETAbyte"		=> 9.007e+15
+					"PETABYTE"		=> 9.007e+15
 				),
 				
 				"BYTE" 			=> array(
 					"BIT"				=> 0.125,
 					"KILOBIT"			=> 128,
-					"KILObyte"		=> 1024,
+					"KILOBYTE"		=> 1024,
 					"MEGABIT"		=> 131072,
-					"MEGAbyte"		=> 1.049e+6,
+					"MEGABYTE"		=> 1.049e+6,
 					"GIGABIT"			=> 1.342e+8,
-					"GIGAbyte"		=> 1.074e+9,
+					"GIGABYTE"		=> 1.074e+9,
 					"TERABIT"			=> 1.374e+11,
-					"TERAbyte"		=> 1.1e+12,
+					"TERABYTE"		=> 1.1e+12,
 					"PETABIT"			=> 1.407e+14,
-					"PETAbyte"		=> 1.126e+15
+					"PETABYTE"		=> 1.126e+15
 				),
 				
 				"KILOBIT" 			=> array(
 					"BIT"				=> 0.000976563,
 					"BYTE"				=> 0.0078125,
-					"KILObyte"		=> 8,
+					"KILOBYTE"		=> 8,
 					"MEGABIT"		=> 1024,
-					"MEGAbyte"		=> 8192,
+					"MEGABYTE"		=> 8192,
 					"GIGABIT"			=> 1.049e+6,
-					"GIGAbyte"		=> 8.389e+6,
+					"GIGABYTE"		=> 8.389e+6,
 					"TERABIT"			=> 1.074e+9,
-					"TERAbyte"		=> 8.59e+9,
+					"TERABYTE"		=> 8.59e+9,
 					"PETABIT"			=> 1.1e+12,
-					"PETAbyte"		=> 8.796e+12
+					"PETABYTE"		=> 8.796e+12
 				),
 				
-				"KILObyte" 			=> array(
+				"KILOBYTE" 			=> array(
 					"BIT"				=> 0.00012207,
 					"BYTE"				=> 0.000976563,
 					"KILOBIT"			=> 0.125,
