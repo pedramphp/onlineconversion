@@ -18,7 +18,7 @@ var converter = function(){
 		$rightMetricType 	= $("#metric-type-right"),
 		leftMetricVal,
 		rightMetricVal,
-		actionName 			= MBOX.getVar("action").split("-")[0],
+		actionName 			= MBOX.getVar("action").replace(/-([a-z]*)$/,"").replace(/-([a-z])/g, function (g) { return g[1].toUpperCase() }),
 		siteData			= MBOX.getActionVars().SiteData,
 		conversionData		= siteData[actionName+"Page"],
 		CONVERSIONS 		= conversionData.conversionTable,
