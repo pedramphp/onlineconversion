@@ -12,6 +12,7 @@ RewriteRule ^temperature-converter/(.*)$ ?action=temperature-converter&converter
 RewriteRule ^length-converter/(.*)$ ?action=length-converter&converter=$1 [L]
 RewriteRule ^area-converter/(.*)$ ?action=area-converter&converter=$1 [L]
 RewriteRule ^time-converter/(.*)$ ?action=time-converter&converter=$1 [L]
+RewriteRule ^digital-storage-converter/(.*)$ ?action=digital-storage-converter&converter=$1 [L]
 
 #RewriteRule ^(.*)\.htm$ $1.php [L]
 #RewriteRule ^=([^/\.]+)/?$ $1 
